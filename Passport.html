@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasaporte</title>
+</head>
+<body>
+    <main>
+        
+        <form action="">
+        <fieldset> 
+            <legend>Datos personales</legend>
+                <label  for="nombre">Nombre completo:</label>
+                <input placeholder="Nombre y apellidos" id="InombreC" type="text" name="nombreC" required minlength="3" maxlength="40">
+                
+                <label for="Genre">Género Masculino</label>
+                <input type="radio" name="gMasculino" id="IgMasculino">
+
+                <label for="Genre">Género Femenino</label>
+                <input type="radio" name="gFemenino" id="IgFemenino">
+
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="Iedad" min="18" max="100">
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos electrónicos</legend>
+        <label for="">Correo electrónico</label>
+        <input type="email" name="Correo electrónico" id="Iemail" required >
+        
+        
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" id="Icontraseña" minlength="8" required>
+
+        <label for="Confi-contraseña">Confirmar contraseña</label>
+        <input type="password" name="Confi-contraseña" id="IConfi-contraseña" required>
+
+        </fieldset>
+
+        <div class="condiciones-section">
+        <label for="term-condi">Términos y condiciones</label>
+        <input type="checkbox" name="term-condi" id="Iterm-condi" required>
+        
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="Reinicio">
+        </div>
+
+
+
+
+
+
+    </form>
+    </main>
+    
+</body>
+</html>
